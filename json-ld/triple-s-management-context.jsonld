@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "triples": "https://management.grupotriples.com/vocab#",
+    "HealthInsurancePlan": "schema:HealthInsurancePlan",
+    "InsuranceAgency": "schema:InsuranceAgency",
+    "Organization": "schema:Organization",
+    "managedCare": "triples:managedCare",
+    "medicareAdvantage": "triples:medicareAdvantage",
+    "lifeInsurance": "triples:lifeInsurance",
+    "propertyAndCasualty": "triples:propertyAndCasualty",
+    "providerPortal": "triples:providerPortal",
+    "eligibilityVerification": "triples:eligibilityVerification",
+    "claimsSubmission": "triples:claimsSubmission",
+    "priorAuthorization": "triples:priorAuthorization",
+    "credentialing": "triples:credentialing",
+    "ediTransaction": "triples:ediTransaction",
+    "explanationOfPayment": "triples:explanationOfPayment",
+    "ipa": "triples:ipa",
+    "servicingArea": "schema:areaServed",
+    "parentOrganization": "schema:parentOrganization",
+    "subsidiary": "schema:subOrganization",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url"
+  }
+}

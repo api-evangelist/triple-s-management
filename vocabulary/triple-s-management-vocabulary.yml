@@ -1,0 +1,134 @@
+vocabulary:
+  name: Triple-S Management Vocabulary
+  description: >-
+    Domain vocabulary for Triple-S Management Corporation, the largest managed care
+    company in Puerto Rico, covering health insurance, managed care, Medicare Advantage,
+    and healthcare provider terminology.
+  version: 1.0.0
+  created: '2026-05-03'
+  modified: '2026-05-03'
+  tags:
+    - Health Insurance
+    - Managed Care
+    - Puerto Rico
+    - Healthcare
+
+terms:
+  - term: Managed Care
+    definition: >-
+      A healthcare delivery system organized to manage cost, utilization, and quality
+      of care. Triple-S Salud operates as the primary managed care organization in
+      Puerto Rico.
+    category: Core Concept
+    tags:
+      - Healthcare
+      - Insurance
+
+  - term: Medicare Advantage
+    definition: >-
+      A type of Medicare health plan offered by private companies approved by Medicare.
+      Triple-S Advantage provides Medicare Advantage plans in Puerto Rico.
+    category: Insurance Product
+    tags:
+      - Medicare
+      - Insurance
+
+  - term: Blue Cross Blue Shield
+    definition: >-
+      A federation of health insurance organizations and companies. Triple-S Salud is
+      an independent licensee of the Blue Cross Blue Shield Association for Puerto Rico
+      and the U.S. Virgin Islands.
+    category: Association
+    tags:
+      - Blue Cross Blue Shield
+      - Insurance
+
+  - term: EDI 837
+    definition: >-
+      Electronic Data Interchange format for submitting healthcare claim transactions
+      electronically. Triple-S providers use EDI 837 for electronic claims submission.
+    category: Technical Standard
+    tags:
+      - EDI
+      - Claims
+
+  - term: Prior Authorization
+    definition: >-
+      A requirement from Triple-S that providers obtain approval before delivering
+      certain medical services or prescribing medications to ensure coverage eligibility.
+    category: Clinical Process
+    tags:
+      - Authorization
+      - Healthcare
+
+  - term: Explanation of Payment (EOP)
+    definition: >-
+      A document sent to healthcare providers explaining how a claim was processed
+      and what payment amount was issued or denied.
+    category: Claims
+    tags:
+      - Claims
+      - Payments
+
+  - term: Credentialing
+    definition: >-
+      The process of verifying a provider's qualifications, licenses, and background
+      before they can participate in Triple-S networks.
+    category: Provider Management
+    tags:
+      - Providers
+      - Credentialing
+
+  - term: IPA (Independent Practice Association)
+    definition: >-
+      An association of independent physicians and other healthcare providers organized
+      to negotiate contracts with managed care organizations. CarePoint is Triple-S's IPA.
+    category: Provider Organization
+    tags:
+      - Providers
+      - Healthcare
+
+  - term: GuideWell
+    definition: >-
+      The parent company of Florida Blue that acquired Triple-S Management Corporation
+      in February 2022, enabling expanded healthcare reach across Florida and Puerto Rico.
+    category: Corporate
+    tags:
+      - Corporate
+      - Insurance
+
+  - term: Triple-S Salud
+    definition: >-
+      The managed care health insurance subsidiary of Triple-S Management, serving
+      individual, employer, and government health plan markets in Puerto Rico.
+    category: Subsidiary
+    tags:
+      - Healthcare
+      - Insurance
+
+  - term: Triple-S Advantage
+    definition: >-
+      The Medicare Advantage plan subsidiary of Triple-S Management, providing
+      Medicare-eligible members in Puerto Rico with comprehensive health coverage.
+    category: Subsidiary
+    tags:
+      - Medicare
+      - Insurance
+
+  - term: Triple-S Vida
+    definition: >-
+      The life insurance subsidiary of Triple-S Management providing individual and
+      group life insurance products in Puerto Rico.
+    category: Subsidiary
+    tags:
+      - Life Insurance
+      - Insurance
+
+  - term: Salus
+    definition: >-
+      Medical clinic subsidiary of Triple-S Management offering primary care,
+      specialist access, and telemedicine services with integrated electronic health records.
+    category: Subsidiary
+    tags:
+      - Medical Clinics
+      - Healthcare

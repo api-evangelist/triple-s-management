@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://api-evangelist.github.io/triple-s-management/json-schema/triple-s-management-member-schema.json",
+  "title": "Triple-S Management Health Plan Member",
+  "description": "Schema for a Triple-S health plan member including coverage and eligibility information",
+  "type": "object",
+  "required": ["memberId", "name", "planType"],
+  "properties": {
+    "memberId": {
+      "type": "string",
+      "description": "Unique member identifier"
+    },
+    "name": {
+      "type": "object",
+      "description": "Member name",
+      "properties": {
+        "first": { "type": "string" },
+        "last": { "type": "string" },
+        "middle": { "type": "string" }
+      }
+    },
+    "dateOfBirth": {
+      "type": "string",
+      "format": "date",
+      "description": "Member date of birth"
+    },
+    "planType": {
+      "type": "string",
+      "description": "Type of health plan",
+      "enum": ["Commercial", "Medicare Advantage", "Government", "Life", "Property and Casualty"]
+    },
+    "planId": {
+      "type": "string",
+      "description": "Health plan identifier"
+    },
+    "groupNumber": {
+      "type": "string",
+      "description": "Employer group number"
+    },
+    "effectiveDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Coverage effective date"
+    },
+    "terminationDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Coverage termination date"
+    },
+    "eligibilityStatus": {
+      "type": "string",
+      "description": "Current eligibility status",
+      "enum": ["Active", "Inactive", "Terminated", "Pending"]
+    },
+    "primaryCareProvider": {
+      "type": "object",
+      "description": "Assigned primary care provider",
+      "properties": {
+        "npi": { "type": "string", "description": "Provider NPI number" },
+        "name": { "type": "string", "description": "Provider name" },
+        "phone": { "type": "string", "description": "Provider phone number" }
+      }
+    },
+    "network": {
+      "type": "string",
+      "description": "Provider network (BlueCross BlueShield, Puerto Rico, USVI)"
+    }
+  }
+}
