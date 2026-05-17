@@ -79,7 +79,7 @@ common:
     url: https://salud.grupotriples.com/en/
   - type: Vocabulary
     url: vocabulary/triple-s-management-vocabulary.yml
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/triple-s-management-context.jsonld
   - type: x-profiled
     url: '2026-05'
