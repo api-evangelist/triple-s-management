@@ -59,6 +59,8 @@ apis:
         url: https://advantage.grupotriples.com/en/providers/
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/triple-s-management
   - type: Website
     url: https://www.triple-s-management.com
   - type: Corporate Website
