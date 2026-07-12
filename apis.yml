@@ -59,6 +59,8 @@ apis:
         url: https://advantage.grupotriples.com/en/providers/
 
 common:
+  - type: DomainSecurity
+    url: security/triple-s-management-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/triple-s-management
   - type: Website
