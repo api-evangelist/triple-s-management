@@ -98,8 +98,6 @@ common:
     url: vocabulary/triple-s-management-vocabulary.yml
   - type: JSONLD
     url: json-ld/triple-s-management-context.jsonld
-  - type: x-profiled
-    url: '2026-05'
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
