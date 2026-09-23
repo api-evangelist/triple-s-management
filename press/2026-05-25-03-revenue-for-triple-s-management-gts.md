@@ -1,7 +1,9 @@
 ---
 title: Revenue for Triple-S Management (GTS)
 url: https://companiesmarketcap.com/triple-s-management/revenue/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Triple-S Management" press release artificial intelligence'
 position: 3
 source: serpapi-google

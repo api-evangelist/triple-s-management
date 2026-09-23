@@ -1,7 +1,9 @@
 ---
 title: Triple-S, MCS, Liberty announce Puerto Rico hires
 url: https://newsismybusiness.com/triple-s-mcs-liberty-announce-puerto-rico-hires/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Triple-S Management" press release artificial intelligence'
 position: 2
 source: serpapi-google
