@@ -83,6 +83,12 @@ apis:
         url: https://advantage.grupotriples.com/en/providers/
 
 common:
+  - type: Plans
+    url: plans/triple-s-management-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/triple-s-management-rate-limits.yml
+  - type: FinOps
+    url: finops/triple-s-management-finops.yml
   - type: DomainSecurity
     url: security/triple-s-management-domain-security.yml
   - type: LinkedIn
